@@ -1,3 +1,4 @@
+//2017.3.30
 
 /*
   # 作用域
@@ -88,6 +89,12 @@
       }, 1000)
     })(i)
   } 
+//使用ES6的let解决
+  for(let i = 0; i < 10; i++) {
+    setTimeout(function() {
+      console.log(i);
+    }, 1000)
+  }
 
 /*
   setTimeout
