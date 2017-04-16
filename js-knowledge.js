@@ -112,10 +112,19 @@
 */
 //1. 基础的原型
 
+//2. 继承的原理
+  var demo = new Demo();
+  //实际的步骤
+  var demo = {};
+  demo.__proto__ = Demo.prototype;
+  Demo.call(demo);
+
 /*
   变量类型
 */
-//1. 基础的类型 
+//1. js基础数据类型
+  var origin = ["Number", "String", "Boolean", "Array", "Object", "Null", "undefined"];
+//2. 基础的类型 
   console.log(typeof null);  //object
   console.log(typeof String);  //function
   console.log(typeof Number());  //number
@@ -124,3 +133,5 @@
 /*
   this作用域
 */
+
+  
