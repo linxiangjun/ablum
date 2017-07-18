@@ -1,0 +1,13 @@
+{
+  "window.zoomLevel": 0,
+  "editor.fontSize": 18,
+  "editor.tabSize": 2,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe",
+  "editor.fontFamily": "Source Code Pro, 'Courier New', monospace",
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "editor.detectIndentation": false,
+  "typescript.check.tscVersion": false
+}
